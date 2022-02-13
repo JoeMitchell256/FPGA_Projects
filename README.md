@@ -5,3 +5,6 @@ With regards to the CPU pipeline, I based it off of the MIPS instruction set arc
 the architecture:
 
 Computer Organization and Design Fifth Edition : David A. Patterson , John L. Hennessy
+
+I have also added my C program that parses Verilog files to produce dimacs formatted CNF files.
+I was very proud of the work I did to design this C program. It helped me understand how good the C programming language can be!
