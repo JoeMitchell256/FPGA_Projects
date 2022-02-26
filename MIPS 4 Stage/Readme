@@ -1,0 +1,2 @@
+This project is a work in progress 4 Stage MIPS pipeline implementation in Verilog HDL.
+This current project has been run through Synopsys Design Compiler and has been discovered to have a max clock frequency of 143 Mhz.
