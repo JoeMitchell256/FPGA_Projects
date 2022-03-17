@@ -1,0 +1,14 @@
+This folder holds the files for instruction level verification for my (what is now, but will be 5 stage) 4 stage pipeline.
+
+The idea is to generate random assembly program consisting of only R-Type instructions for the moment
+
+Then send this program though the mips simulator spim
+After running the mips assembly program spim it will spit out registers.txt
+'registers.txt' is considered the Golden file similar to SystemC
+
+Next I will translate the randomly generated assembly program into machine code
+I will then read this program into instruction memory for my pipeline
+Then my pipeline will run each instruction 1 by 1 and will send its final register values to another file pipeline.txt
+'pipeline.txt' will have the register values of my pipeline
+
+There may need to be conversions from binary to decimal for the 'pipeline.txt' file but thats a problem for another day
